@@ -4,7 +4,7 @@ Downloads graphs from your FireBrick, merges them together, and moves them to yo
 # Requirements
 * A web server
 * A FireBrick, with a user account which you can access from the IP address from which you will be running this script, and which has at least read access to the web interface
-* [[https://github.com/revk/CQMmerge|CQMmerge]] installed (for which you'll probably need some dev libraries installed on your machine; read the error codes from the make process
+* [CQMmerge](https://github.com/revk/CQMmerge) installed (for which you'll probably need some dev libraries installed on your machine; read the error codes from the make process
 
 # How to use it
 

@@ -1,5 +1,7 @@
-# FireBrick_graph_downloader
-Downloads graphs from your FireBrick, merges them together, and moves them to your web server
+# FireBrick Graph Downloader
+This simple bash script grabs graphs from your FireBrick, merges them with previous versions of the graph (if available), and moves them to your web server.
+
+The aim is to give you persistent graphing, rather than the ephemeral graphing on the FireBrick itself, where the graphs are wiped on reboot of the FireBrick.
 
 # Requirements
 * A web server

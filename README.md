@@ -5,7 +5,8 @@ The aim is to give you persistent graphing, rather than the ephemeral graphing o
 
 # Requirements
 * A web server
-* A FireBrick, with a user account which you can access from the IP address from which you will be running this script, and which has at least read access to the web interface
+* Probably a Linux machine, with bash and curl
+* A FireBrick, with a user account which you can access from the IP address from which you will be running this script, and which has at least read access to the web interface. Since this script stores the password in plaintext, it would make sensible to create a specific user only for this script, make it a "read only" account, and lock down the account so that it can be accessed only from the IP address of the machine running the script.
 * [CQMmerge](https://github.com/revk/CQMmerge) installed (for which you'll probably need some dev libraries installed on your machine; read the error codes from the make process
 
 # How to use it
